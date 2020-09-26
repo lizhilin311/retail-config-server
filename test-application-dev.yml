@@ -1,0 +1,10 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: retail-config-server
+  cloud:
+    config:
+      server:
+        git: #git的远程仓库地址
+          uri: https://github.com/lizhilin311/retail-config-server.git
